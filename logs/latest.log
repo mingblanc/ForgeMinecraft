@@ -1,26 +1,51 @@
-[18:24:09] [Server thread/INFO]: Starting minecraft server version 1.7.10
-[18:24:09] [Server thread/WARN]: To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
-[18:24:17] [Server thread/INFO]: Loading properties
-[18:24:17] [Server thread/INFO]: Default game type: SURVIVAL
-[18:24:17] [Server thread/INFO]: Generating keypair
-[18:24:18] [Server thread/INFO]: Starting Minecraft server on *:25565
-[18:24:18] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[18:24:18] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[18:24:18] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[18:24:18] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[18:24:18] [Server thread/INFO]: Preparing level "world"
-[18:24:19] [Server thread/INFO]: Preparing start region for level 0
-[18:24:20] [Server thread/INFO]: Preparing spawn area: 45%
-[18:24:21] [Server thread/INFO]: Done (2.446s)! For help, type "help" or "?"
-[18:24:43] [Server thread/INFO]: mingblanc[/59.109.64.67:11695] logged in with entity id 213 at (-905.8133342251681, 70.0, -188.10562389204856)
-[18:24:43] [Server thread/INFO]: mingblanc joined the game
-[18:25:33] [Server thread/INFO]: mingblanc lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
-[18:25:33] [Server thread/INFO]: mingblanc left the game
-[18:25:37] [Server thread/INFO]: Stopping the server
-[18:25:37] [Server thread/INFO]: Stopping server
-[18:25:37] [Server thread/INFO]: Saving players
-[18:25:37] [Server thread/INFO]: Saving worlds
-[18:25:37] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
-[18:25:37] [Server thread/INFO]: Saving chunks for level 'world'/Nether
-[18:25:37] [Server thread/INFO]: Saving chunks for level 'world'/The End
-[18:25:37] [Server thread/INFO]: Saving chunks for level 'world'/Twilight Forest
+[18:50:11] [Server thread/INFO]: Starting minecraft server version 1.7.10
+[18:50:12] [Server thread/WARN]: To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
+[18:50:35] [Server thread/INFO]: Loading properties
+[18:50:35] [Server thread/INFO]: Default game type: SURVIVAL
+[18:50:35] [Server thread/INFO]: Generating keypair
+[18:50:36] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:50:36] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:50:36] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:50:36] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18:50:36] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:50:37] [Server thread/INFO]: Preparing level "world"
+[18:50:37] [Server thread/INFO]: Preparing start region for level 0
+[18:50:38] [Server thread/INFO]: Preparing spawn area: 71%
+[18:50:38] [Server thread/INFO]: Done (1.654s)! For help, type "help" or "?"
+[18:51:14] [Server thread/ERROR]: Couldn't parse statistics file ./world/stats/f1dc3d7b-39be-31cf-a042-68947033108d.json
+com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 10
+	at com.google.gson.JsonParser.parse(JsonParser.java:65) ~[JsonParser.class:?]
+	at com.google.gson.JsonParser.parse(JsonParser.java:45) ~[JsonParser.class:?]
+	at net.minecraft.stats.StatisticsFile.func_150881_a(SourceFile:79) ~[pg.class:?]
+	at net.minecraft.stats.StatisticsFile.func_150882_a(SourceFile:40) [pg.class:?]
+	at net.minecraft.server.management.ServerConfigurationManager.func_152602_a(ServerConfigurationManager.java:1073) [oi.class:?]
+	at net.minecraft.entity.player.EntityPlayerMP.<init>(EntityPlayerMP.java:147) [mw.class:?]
+	at net.minecraft.server.management.ServerConfigurationManager.func_148545_a(ServerConfigurationManager.java:410) [oi.class:?]
+	at net.minecraft.server.network.NetHandlerLoginServer.func_147326_c(NetHandlerLoginServer.java:101) [nn.class:?]
+	at net.minecraft.server.network.NetHandlerLoginServer.func_147233_a(NetHandlerLoginServer.java:60) [nn.class:?]
+	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:215) [ej.class:?]
+	at net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:165) [nc.class:?]
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:659) [MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:334) [lt.class:?]
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:547) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:427) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:685) [li.class:?]
+Caused by: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 10
+	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1505) ~[JsonReader.class:?]
+	at com.google.gson.stream.JsonReader.checkLenient(JsonReader.java:1386) ~[JsonReader.class:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:531) ~[JsonReader.class:?]
+	at com.google.gson.stream.JsonReader.peek(JsonReader.java:414) ~[JsonReader.class:?]
+	at com.google.gson.JsonParser.parse(JsonParser.java:60) ~[JsonParser.class:?]
+	... 15 more
+[18:51:14] [Server thread/INFO]: mingblanc[/59.109.64.67:4450] logged in with entity id 208 at (-906.8820196059862, 70.0, -177.71447350857423)
+[18:51:14] [Server thread/INFO]: mingblanc joined the game
+[18:51:26] [Server thread/INFO]: mingblanc lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[18:51:26] [Server thread/INFO]: mingblanc left the game
+[18:51:35] [Server thread/INFO]: Stopping the server
+[18:51:35] [Server thread/INFO]: Stopping server
+[18:51:35] [Server thread/INFO]: Saving players
+[18:51:35] [Server thread/INFO]: Saving worlds
+[18:51:35] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[18:51:35] [Server thread/INFO]: Saving chunks for level 'world'/Nether
+[18:51:35] [Server thread/INFO]: Saving chunks for level 'world'/The End
+[18:51:35] [Server thread/INFO]: Saving chunks for level 'world'/Twilight Forest
