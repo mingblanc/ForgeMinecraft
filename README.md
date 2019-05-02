@@ -12,7 +12,17 @@ cleanworld.sh--自己写的脚本，运行后可以清理地图存档。<br>
   其他的我也不知道了。
   
 
-<h2>运行方式：</h2>      
+<h2>运行方式：</h2>    
+<h3>检查是否安装java环境</h3>
+
+    yum list java*
+    
+查看yum源中的所有java包
+    
+    yum install -y java-1.8.0-openjdk
+    
+安装java
+
 <h3>运行</h3> 
 
     java -Xms256M -Xmx512M -jar forge_minecraft1.7.10.jar nogui
