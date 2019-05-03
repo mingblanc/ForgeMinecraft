@@ -1,33 +1,28 @@
-[22:09:34] [Server thread/INFO]: Starting minecraft server version 1.7.10
-[22:09:34] [Server thread/WARN]: To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
-[22:09:41] [Server thread/INFO]: Loading properties
-[22:09:41] [Server thread/INFO]: Default game type: SURVIVAL
-[22:09:41] [Server thread/INFO]: Generating keypair
-[22:09:42] [Server thread/INFO]: Starting Minecraft server on *:25565
-[22:09:42] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[22:09:42] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[22:09:42] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[22:09:42] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[22:09:43] [Server thread/INFO]: Preparing level "world"
-[22:09:43] [Server thread/INFO]: Preparing start region for level 0
-[22:09:44] [Server thread/INFO]: Preparing spawn area: 29%
-[22:09:45] [Server thread/INFO]: Preparing spawn area: 77%
-[22:09:45] [Server thread/INFO]: Done (2.806s)! For help, type "help" or "?"
-[22:09:48] [Server thread/INFO]: xyh[/183.200.14.18:4186] logged in with entity id 216 at (-534.5297039674468, 29.0, 1783.1647295339642)
-[22:09:48] [Server thread/INFO]: xyh joined the game
-[22:09:48] [Server thread/INFO]: mingblanc[/117.136.90.35:40389] logged in with entity id 217 at (-535.3454173024396, 28.0, 1793.1498490740057)
-[22:09:48] [Server thread/INFO]: mingblanc joined the game
-[22:11:45] [Server thread/INFO]: mingblanc was slain by Cave Spider
-[22:11:54] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2164ms behind, skipping 43 tick(s)
-[22:12:09] [Server thread/INFO]: [mingblanc: Teleported mingblanc to xyh]
-[22:12:24] [Server thread/INFO]: mingblanc lost connection: TranslatableComponent{key='disconnect.genericReason', args=[Internal Exception: io.netty.handler.codec.DecoderException: java.lang.IndexOutOfBoundsException: readerIndex(1) + length(4) exceeds writerIndex(2): UnpooledHeapByteBuf(ridx: 1, widx: 2, cap: 2)], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
-[22:12:24] [Server thread/INFO]: mingblanc left the game
-[22:12:36] [Server thread/INFO]: mingblanc[/117.136.90.35:40394] logged in with entity id 2677 at (-488.9625725090294, 29.0, 1775.1040269353605)
-[22:12:36] [Server thread/INFO]: mingblanc joined the game
-[22:12:38] [Server thread/INFO]: mingblanc lost connection: TranslatableComponent{key='disconnect.genericReason', args=[Internal Exception: io.netty.handler.codec.DecoderException: java.io.IOException: Packet was larger than I expected, found 37 bytes extra whilst reading packet 0], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
-[22:12:38] [Server thread/INFO]: mingblanc left the game
-[22:12:51] [Server thread/INFO]: mingblanc[/117.136.90.35:40612] logged in with entity id 2772 at (-488.9625725090294, 29.0, 1775.1040269353605)
-[22:12:51] [Server thread/INFO]: mingblanc joined the game
-[22:15:20] [Server thread/INFO]: xyh fell out of the world
-[22:15:26] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3714ms behind, skipping 74 tick(s)
-[22:15:28] [Server thread/INFO]: mingblanc fell out of the world
+[09:22:09] [Server thread/INFO]: Starting minecraft server version 1.7.10
+[09:22:09] [Server thread/WARN]: To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
+[09:22:18] [Server thread/INFO]: Loading properties
+[09:22:18] [Server thread/INFO]: Default game type: SURVIVAL
+[09:22:18] [Server thread/INFO]: Generating keypair
+[09:22:18] [Server thread/INFO]: Starting Minecraft server on *:25565
+[09:22:18] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[09:22:18] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[09:22:18] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[09:22:18] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[09:22:19] [Server thread/INFO]: Preparing level "world"
+[09:22:20] [Server thread/INFO]: Preparing start region for level 0
+[09:22:21] [Server thread/INFO]: Preparing spawn area: 27%
+[09:22:22] [Server thread/INFO]: Preparing spawn area: 69%
+[09:22:22] [Server thread/INFO]: Done (3.397s)! For help, type "help" or "?"
+[09:22:40] [Server thread/INFO]: mingblanc[/223.72.41.254:25011] logged in with entity id 215 at (-459.71347528744286, 29.0, 1809.7570852101624)
+[09:22:40] [Server thread/INFO]: mingblanc joined the game
+[09:22:43] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2092ms behind, skipping 41 tick(s)
+[09:23:23] [Server thread/INFO]: mingblanc lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[09:23:23] [Server thread/INFO]: mingblanc left the game
+[09:23:28] [Server thread/INFO]: Stopping the server
+[09:23:28] [Server thread/INFO]: Stopping server
+[09:23:28] [Server thread/INFO]: Saving players
+[09:23:28] [Server thread/INFO]: Saving worlds
+[09:23:28] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[09:23:28] [Server thread/INFO]: Saving chunks for level 'world'/Nether
+[09:23:28] [Server thread/INFO]: Saving chunks for level 'world'/The End
+[09:23:28] [Server thread/INFO]: Saving chunks for level 'world'/Twilight Forest
