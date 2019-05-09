@@ -1,29 +1,23 @@
-[21:49:08] [Server thread/INFO]: Starting minecraft server version 1.7.10
-[21:49:08] [Server thread/WARN]: To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
-[21:49:14] [Server thread/INFO]: Loading properties
-[21:49:14] [Server thread/INFO]: Default game type: SURVIVAL
-[21:49:14] [Server thread/INFO]: Generating keypair
-[21:49:15] [Server thread/INFO]: Starting Minecraft server on *:25565
-[21:49:15] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[21:49:15] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[21:49:15] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[21:49:15] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[21:49:16] [Server thread/INFO]: Preparing level "world"
-[21:49:16] [Server thread/INFO]: Preparing start region for level 0
-[21:49:17] [Server thread/INFO]: Preparing spawn area: 43%
-[21:49:18] [Server thread/INFO]: Done (2.157s)! For help, type "help" or "?"
-[21:49:42] [Server thread/INFO]: mingblanc[/1.68.59.165:33109] logged in with entity id 208 at (-754.0213508851843, 32.0, 294.8444325616281)
-[21:49:42] [Server thread/INFO]: mingblanc joined the game
-[21:49:56] [Server thread/INFO]: xyh[/183.200.1.50:18116] logged in with entity id 55427 at (-760.6916506231858, 32.0, 289.4928340670418)
-[21:49:56] [Server thread/INFO]: xyh joined the game
-[21:50:19] [Server thread/INFO]: xyh has just earned the achievement [Naga Hunter]
-[21:50:46] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3079ms behind, skipping 61 tick(s)
-[21:51:01] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2495ms behind, skipping 49 tick(s)
-[21:53:45] [Server thread/INFO]: xyh has just earned the achievement [Shimmering Scale]
-[21:55:31] [Server thread/INFO]: [xyh: Set own game mode to Creative Mode]
-[21:55:41] [Server thread/INFO]: [xyh: Set own game mode to Survival Mode]
-[21:56:32] [Server thread/INFO]: [mingblanc: Teleported mingblanc to -992.5,33.5,-97.5]
-[21:56:44] [Server thread/INFO]: mingblanc has just earned the achievement [Twilight Portal]
-[21:56:44] [Server thread/INFO]: mingblanc has just earned the achievement [Twilight Arrival]
-[21:56:47] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3073ms behind, skipping 61 tick(s)
-[21:57:27] [Server thread/INFO]: Stopping server
+[08:05:45] [Server thread/INFO]: Starting minecraft server version 1.7.10
+[08:05:45] [Server thread/WARN]: To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
+[08:05:53] [Server thread/INFO]: Loading properties
+[08:05:53] [Server thread/INFO]: Default game type: SURVIVAL
+[08:05:53] [Server thread/INFO]: Generating keypair
+[08:05:53] [Server thread/INFO]: Starting Minecraft server on *:25565
+[08:05:53] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[08:05:53] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[08:05:53] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[08:05:53] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[08:05:54] [Server thread/INFO]: Preparing level "world"
+[08:05:55] [Server thread/INFO]: Preparing start region for level 0
+[08:05:56] [Server thread/INFO]: Preparing spawn area: 36%
+[08:05:57] [Server thread/INFO]: Preparing spawn area: 74%
+[08:05:57] [Server thread/INFO]: Done (2.921s)! For help, type "help" or "?"
+[08:14:19] [Server thread/INFO]: Stopping the server
+[08:14:19] [Server thread/INFO]: Stopping server
+[08:14:19] [Server thread/INFO]: Saving players
+[08:14:19] [Server thread/INFO]: Saving worlds
+[08:14:19] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[08:14:19] [Server thread/INFO]: Saving chunks for level 'world'/Nether
+[08:14:19] [Server thread/INFO]: Saving chunks for level 'world'/The End
+[08:14:19] [Server thread/INFO]: Saving chunks for level 'world'/Twilight Forest
