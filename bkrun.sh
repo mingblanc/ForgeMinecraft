@@ -1,3 +1,3 @@
 #!/bin/bash
-screen -S minecraft java -Xms256M -Xmx400M -jar forge_minecraft1.7.10.jar nogui
+screen -S minecraft java -Xms1024M -Xmx1024M -jar forge_minecraft1.7.10.jar nogui
 
