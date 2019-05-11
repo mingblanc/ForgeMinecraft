@@ -1,13 +1,13 @@
-[13:03:16] [Server thread/INFO]: Starting minecraft server version 1.7.10
-[13:03:27] [Server thread/INFO]: Loading properties
-[13:03:27] [Server thread/INFO]: Default game type: SURVIVAL
-[13:03:27] [Server thread/INFO]: Generating keypair
-[13:03:27] [Server thread/INFO]: Starting Minecraft server on *:25565
-[13:03:27] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[13:03:27] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[13:03:27] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[13:03:27] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[13:03:28] [Server thread/WARN]: Failed to load white-list: 
+[14:12:55] [Server thread/INFO]: Starting minecraft server version 1.7.10
+[14:13:07] [Server thread/INFO]: Loading properties
+[14:13:07] [Server thread/INFO]: Default game type: SURVIVAL
+[14:13:07] [Server thread/INFO]: Generating keypair
+[14:13:07] [Server thread/INFO]: Starting Minecraft server on *:25565
+[14:13:07] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14:13:07] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[14:13:07] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[14:13:07] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[14:13:08] [Server thread/WARN]: Failed to load white-list: 
 com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 4
 	at com.google.gson.Gson.fromJson(Gson.java:815) ~[Gson.class:?]
 	at com.google.gson.Gson.fromJson(Gson.java:768) ~[Gson.class:?]
@@ -23,32 +23,76 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_O
 	at com.google.gson.internal.bind.CollectionTypeAdapterFactory$Adapter.read(CollectionTypeAdapterFactory.java:60) ~[CollectionTypeAdapterFactory$Adapter.class:?]
 	at com.google.gson.Gson.fromJson(Gson.java:803) ~[Gson.class:?]
 	... 7 more
-[13:03:28] [Server thread/INFO]: Preparing level "world"
-[13:03:29] [Server thread/INFO]: Preparing start region for level 0
-[13:03:30] [Server thread/INFO]: Preparing spawn area: 27%
-[13:03:31] [Server thread/INFO]: Preparing spawn area: 70%
-[13:03:31] [Server thread/INFO]: Done (3.345s)! For help, type "help" or "?"
-[13:04:10] [Server thread/INFO]: mingblanc[/183.185.63.223:3379] logged in with entity id 214 at (-898.4111758477328, 64.0, -178.64878325106588)
-[13:04:10] [Server thread/INFO]: mingblanc joined the game
-[13:11:43] [Server thread/INFO]: [mingblanc: Set own game mode to Creative Mode]
-[13:12:08] [Server thread/INFO]: [mingblanc: Set own game mode to Survival Mode]
-[13:14:23] [Server thread/INFO]: [mingblanc: Set own game mode to Creative Mode]
-[13:14:40] [Server thread/INFO]: [mingblanc: Set own game mode to Survival Mode]
-[13:16:13] [Server thread/INFO]: mingblanc was slain by Zombie Pigman
-[13:16:57] [Server thread/INFO]: [mingblanc: Teleported mingblanc to -899.5,80.5,-194.5]
-[13:18:55] [Server thread/INFO]: mingblanc fell from a high place
-[13:19:05] [Server thread/INFO]: [mingblanc: Teleported mingblanc to -898.5,71.5,-195.5]
-[13:20:05] [Server thread/INFO]: [mingblanc: Set own game mode to Creative Mode]
-[13:20:13] [Server thread/INFO]: [mingblanc: Set own game mode to Survival Mode]
-[13:25:09] [Server thread/INFO]: [mingblanc: Set own game mode to Creative Mode]
-[13:25:37] [Server thread/INFO]: [mingblanc: Set own game mode to Survival Mode]
-[13:33:29] [Server thread/INFO]: mingblanc lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
-[13:33:29] [Server thread/INFO]: mingblanc left the game
-[13:33:48] [Server thread/INFO]: Stopping the server
-[13:33:48] [Server thread/INFO]: Stopping server
-[13:33:48] [Server thread/INFO]: Saving players
-[13:33:48] [Server thread/INFO]: Saving worlds
-[13:33:48] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
-[13:33:48] [Server thread/INFO]: Saving chunks for level 'world'/Nether
-[13:33:48] [Server thread/INFO]: Saving chunks for level 'world'/The End
-[13:33:48] [Server thread/INFO]: Saving chunks for level 'world'/Twilight Forest
+[14:13:08] [Server thread/INFO]: Preparing level "world"
+[14:13:09] [Server thread/INFO]: Preparing start region for level 0
+[14:13:10] [Server thread/INFO]: Preparing spawn area: 20%
+[14:13:11] [Server thread/INFO]: Preparing spawn area: 64%
+[14:13:12] [Server thread/INFO]: Done (3.319s)! For help, type "help" or "?"
+[17:35:36] [Server thread/INFO]: 醉生梦死[/221.205.54.71:54030] logged in with entity id 213 at (-987.711364818607, 32.0, 468.04317921871825)
+[17:35:36] [Server thread/INFO]: 醉生梦死 joined the game
+[17:36:55] [Server thread/INFO]: 醉生梦死 lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[17:36:55] [Server thread/INFO]: 醉生梦死 left the game
+[18:01:50] [Server thread/INFO]: 醉生梦死[/221.205.54.71:54520] logged in with entity id 9667 at (-989.8843679035901, 32.0, -99.28631592412796)
+[18:01:50] [Server thread/INFO]: 醉生梦死 joined the game
+[18:05:14] [Server thread/INFO]: [醉生梦死: Teleported 醉生梦死 to -928.5,71.5,-190.5]
+[18:09:20] [Server thread/INFO]: 醉生梦死 fell from a high place
+[18:09:34] [Server thread/INFO]: [醉生梦死: Teleported 醉生梦死 to -928.5,71.5,-190.5]
+[18:35:50] [Server thread/WARN]: 醉生梦死 moved too quickly! -0.20404856698904794,0.10900766491188563,4.1713457903824747E-4 (8.629526904187447, 1.5708667354226633, 5.490756609384357)
+[18:35:50] [Server thread/WARN]: 醉生梦死 moved too quickly! 0.0,0.0,0.0 (58.05607488371487, 2.245049456091536, 26.07510988675373)
+[18:35:50] [Server thread/WARN]: 醉生梦死 moved too quickly! 0.0,0.0,0.0 (35.72759671292754, 2.905748535206046, 0.0)
+[18:35:50] [Server thread/WARN]: 醉生梦死 moved too quickly! 0.0,0.0,0.0 (26.40575357345446, 3.553233645340101, 4.303155505230276)
+[18:35:50] [Server thread/WARN]: 醉生梦死 moved too quickly! 0.0,0.0,0.0 (22.0758246399501, 3.7957690521506233, 5.3266679013027325)
+[18:35:50] [Server thread/WARN]: 醉生梦死 moved too quickly! 0.0,0.0,0.0 (18.614921405754963, 4.033453755450931, 5.953599014406576)
+[18:35:50] [Server thread/WARN]: 醉生梦死 moved too quickly! 0.0,0.0,0.0 (16.93957896743276, 3.8743847557480584, 5.417775259249332)
+[18:35:51] [Server thread/WARN]: 醉生梦死 moved too quickly! 0.0,-0.07840000152587834,0.0 (14.786495059477463, 3.9144971397405683, 5.4200349422629115)
+[18:35:51] [Server thread/WARN]: 醉生梦死 moved too quickly! 0.0,0.0,0.0 (12.879450513887946, 3.953807276818311, 5.394685441617603)
+[18:35:51] [Server thread/WARN]: 醉生梦死 moved too quickly! 0.0,0.0,0.0 (11.720300305415062, 3.7963312051689546, 4.909163893353274)
+[18:35:51] [Server thread/WARN]: 醉生梦死 moved too quickly! 0.0,0.0,0.0 (10.665473585304815, 3.6420046519489677, 4.4673392716994265)
+[18:35:51] [Server thread/WARN]: 醉生梦死 moved too quickly! 0.0,0.0,0.0 (9.171739605040939, 3.68676463358516, 4.507814210763713)
+[18:38:10] [Server thread/WARN]: 醉生梦死 moved too quickly! -0.16684291391739237,0.02842751216692818,0.07241517348819215 (10.44995127324431, 1.6794243097297816, 4.36173181279761)
+[18:38:11] [Server thread/WARN]: 醉生梦死 moved too quickly! 0.0,0.0,0.0 (37.906684021784734, 2.351435880983083, 4.5773687093631095)
+[18:38:11] [Server thread/WARN]: 醉生梦死 moved too quickly! 0.0,0.0,0.0 (34.49508345396646, 2.226007206687622, 4.165405645566701)
+[18:38:11] [Server thread/WARN]: 醉生梦死 moved too quickly! 0.0,-0.07840000152587834,0.0 (22.039773025834826, 2.4950871169563587, 6.50669607219845)
+[18:38:11] [Server thread/WARN]: 醉生梦死 moved too quickly! 0.0,0.0,0.0 (15.504097605617893, 2.758785434152012, 9.293388811360828)
+[18:38:11] [Server thread/WARN]: 醉生梦死 moved too quickly! 0.0,0.0,0.0 (14.108729227723424, 2.625209776562749, 8.456984062067175)
+[18:38:11] [Server thread/WARN]: 醉生梦死 moved too quickly! 0.0,0.0,0.0 (12.838943967244466, 2.494305629577518, 7.6958557182743625)
+[18:38:11] [Server thread/WARN]: 醉生梦死 moved too quickly! 0.0,0.0,0.0 (8.761216761759378, 2.7580195765058426, 8.97829760184152)
+[18:38:11] [Server thread/WARN]: 醉生梦死 moved too quickly! 0.0,0.0,0.0 (5.834450154483498, 3.0164592495255453, 9.57031135919616)
+[18:38:11] [Server thread/WARN]: 醉生梦死 moved too quickly! 0.0,0.0,0.0 (5.309349793594528, 2.87773012054355, 8.708983587859908)
+[18:38:30] [Server thread/INFO]: 醉生梦死 was slain by Ender Dragon
+[18:38:30] [Server thread/WARN]: 醉生梦死 moved too quickly! -0.016818012592786147,0.02842751216692818,0.0 (5.851703806670202, 2.033761308733627, 8.587142847763639)
+[18:38:30] [Server thread/WARN]: 醉生梦死 moved too quickly! 0.0,0.0,0.0 (14.706273949746153, 2.6986861467652936, 6.683644478211931)
+[18:38:30] [Server thread/WARN]: 醉生梦死 moved too quickly! 0.0,0.0,0.0 (13.382709679956383, 2.566312473777462, 6.082116650458409)
+[18:38:30] [Server thread/WARN]: 醉生梦死 moved too quickly! 0.0,-0.07840000152587834,0.0 (14.519548354948071, 2.8285862851952097, 3.170793456030394)
+[18:38:31] [Server thread/WARN]: 醉生梦死 moved too quickly! 0.0,0.0,0.0 (14.598353486210817, 3.085614625387078, 0.8286767296623292)
+[18:38:31] [Server thread/WARN]: 醉生梦死 moved too quickly! 0.0,0.0,0.0 (13.2845020553089, 2.945502390206886, 0.7540958457256317)
+[18:38:31] [Server thread/WARN]: 醉生梦死 moved too quickly! 0.0,0.0,0.0 (12.08889721873103, 2.8081923970578693, 0.6862272393872755)
+[18:38:31] [Server thread/WARN]: 醉生梦死 moved too quickly! 0.0,0.0,0.0 (11.907104015479092, 3.065628614623502, 1.0940880380772489)
+[18:38:31] [Server thread/WARN]: 醉生梦死 moved too quickly! 0.0,0.0,0.0 (11.479482879432, 3.3179161127480286, 2.445362119162356)
+[18:38:31] [Server thread/WARN]: 醉生梦死 moved too quickly! 0.0,0.0,0.0 (10.44632972134454, 3.1731578522514168, 2.2252795925699176)
+[18:38:31] [Server thread/WARN]: 醉生梦死 moved too quickly! 0.0,0.0,0.0 (9.506160320389432, 3.0312947542036923, 2.025004487598905)
+[18:38:31] [Server thread/WARN]: 醉生梦死 moved too quickly! 0.0,0.0,0.0 (9.10763715323564, 3.2842689288817484, 3.044118731871958)
+[18:38:46] [Server thread/INFO]: [醉生梦死: Teleported 醉生梦死 to -928.5,71.5,-190.5]
+[18:39:39] [Server thread/INFO]: <醉生梦死> t
+[18:39:47] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2138ms behind, skipping 42 tick(s)
+[18:40:07] [Server thread/INFO]: [醉生梦死: Teleported 醉生梦死 to -990.5,34.5,24.5]
+[18:41:40] [Server thread/INFO]: 醉生梦死 lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[18:41:40] [Server thread/INFO]: 醉生梦死 left the game
+[19:38:42] [Server thread/INFO]: 醉生梦死[/221.205.54.71:56573] logged in with entity id 42926 at (-980.9209510437751, 32.0, -14.068689564667704)
+[19:38:42] [Server thread/INFO]: 醉生梦死 joined the game
+[19:38:55] [Server thread/INFO]: <醉生梦死> KILL
+[19:39:06] [Server thread/INFO]: 醉生梦死 fell out of the world
+[19:39:22] [Server thread/WARN]: 醉生梦死 moved wrongly!
+[19:39:39] [Server thread/INFO]: 醉生梦死 fell out of the world
+[19:40:59] [Server thread/INFO]: 醉生梦死 lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[19:40:59] [Server thread/INFO]: 醉生梦死 left the game
+[21:00:11] [Server thread/INFO]: xyh[/183.200.1.173:5818] logged in with entity id 45715 at (-898.4499118422435, 71.0, -182.39703519609958)
+[21:00:11] [Server thread/INFO]: xyh joined the game
+[21:04:05] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2343ms behind, skipping 46 tick(s)
+[21:05:02] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 44495ms behind, skipping 889 tick(s)
+[21:05:05] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2319ms behind, skipping 46 tick(s)
+[21:05:24] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2458ms behind, skipping 49 tick(s)
+[21:07:33] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 83194ms behind, skipping 1663 tick(s)
+[21:07:47] [Server thread/INFO]: [xyh: Teleported xyh to -991.5,33.5,-92.5]
+[21:27:54] [Server thread/INFO]: xyh lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[21:27:54] [Server thread/INFO]: xyh left the game
