@@ -1,0 +1,54 @@
+---- Minecraft Crash Report ----
+// This doesn't make any sense!
+
+Time: 5/14/19 8:19 PM
+Description: Exception in server tick loop
+
+java.lang.NoSuchMethodError: net.minecraft.world.WorldProvider.func_76571_f()F
+	at twilightforest.item.ItemTFMagicBeans.func_77648_a(ItemTFMagicBeans.java:27)
+	at net.minecraftforge.common.ForgeHooks.onPlaceItemIntoWorld(ForgeHooks.java:505)
+	at net.minecraft.item.ItemStack.func_77943_a(Unknown Source)
+	at net.minecraft.server.management.ItemInWorldManager.func_73078_a(Unknown Source)
+	at net.minecraft.network.NetHandlerPlayServer.func_147346_a(NetHandlerPlayServer.java:556)
+	at net.minecraft.network.play.client.C08PacketPlayerBlockPlacement.func_148833_a(SourceFile:60)
+	at net.minecraft.network.play.client.C08PacketPlayerBlockPlacement.func_148833_a(SourceFile:9)
+	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:212)
+	at net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:165)
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:659)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:334)
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:547)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:427)
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:685)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.10
+	Operating System: Linux (amd64) version 3.10.0-957.1.3.el7.x86_64
+	Java Version: 1.8.0_212, Oracle Corporation
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 521661248 bytes (497 MB) / 1037959168 bytes (989 MB) up to 1037959168 bytes (989 MB)
+	JVM Flags: 2 total; -Xms1024M -Xmx1024M
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	IntCache: cache: 0, tcache: 94435, allocated: 1, tallocated: 38
+	FML: MCP v9.05 FML v7.10.99.99 Minecraft Forge 10.13.4.1614 10 mods loaded, 10 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UCHIJAAAA	mcp{9.05} [Minecraft Coder Pack] (minecraft.jar) 
+	UCHIJAAAA	FML{7.10.99.99} [Forge Mod Loader] (forge_minecraft1.7.10.jar) 
+	UCHIJAAAA	Forge{10.13.4.1614} [Minecraft Forge] (forge_minecraft1.7.10.jar) 
+	UCHIJAAAA	SciMCLibCore{0.0.0.2} [SciMCLibCore] (minecraft.jar) 
+	UCHIJAAAA	Torcherino{2.2s} [Torcherino] (Accelerate_the_torches.jar) 
+	UCHIJAAAA	deconstruction{2.2.7} [The Deconstruction Mod] (decompose.jar) 
+	UCHIJAAAA	battlegear2{1.7.10} [Mine & Blade Battlegear 2 - Bullseye] (dualwield.jar) 
+	UCHIJAAAA	TwilightForest{2.3.2} [The Twilight Forest] (evening_forest1.7.10.jar) 
+	UCHIJAAAA	craftguide{1.6.8.1} [CraftGuide] (Gkey_compound1.7.10.zip) 
+	UCHIJAAAA	SciMCLib{SciMCLib} [SciMCLib] (加速火把.jar) 
+	SciMCLib Version: 0.0.0.2
+	Profiler Position: N/A (disabled)
+	Vec3 Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	Player Count: 2 / 8; [EntityPlayerMP['xyh'/8337, l='world', x=-916.92, y=70.94, z=-211.13], EntityPlayerMP['mingblanc'/44914, l='world', x=-913.40, y=70.00, z=-197.46]]
+	Is Modded: Definitely; Server brand changed to 'fml,forge'
+	Type: Dedicated Server (map_server.txt)
