@@ -1,2 +1,2 @@
 #!/bin/bash
-cd /program/forgeminecraft && screen -r minecraft
+cd ~/program/forgeminecraft && screen -r minecraft

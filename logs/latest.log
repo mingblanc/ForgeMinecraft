@@ -1,142 +1,27 @@
-[20:53:18] [Server thread/INFO]: Starting minecraft server version 1.7.10
-[20:53:31] [Server thread/INFO]: Loading properties
-[20:53:31] [Server thread/INFO]: Default game type: SURVIVAL
-[20:53:31] [Server thread/INFO]: Generating keypair
-[20:53:31] [Server thread/INFO]: Starting Minecraft server on *:25565
-[20:53:31] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[20:53:31] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[20:53:31] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[20:53:31] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[20:53:32] [Server thread/WARN]: Failed to load white-list: 
-com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 4
-	at com.google.gson.Gson.fromJson(Gson.java:815) ~[Gson.class:?]
-	at com.google.gson.Gson.fromJson(Gson.java:768) ~[Gson.class:?]
-	at net.minecraft.server.management.UserList.func_152679_g(SourceFile:125) ~[om.class:?]
-	at net.minecraft.server.dedicated.DedicatedPlayerList.func_72418_v(SourceFile:123) [ls.class:?]
-	at net.minecraft.server.dedicated.DedicatedPlayerList.<init>(SourceFile:30) [ls.class:?]
-	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:211) [lt.class:?]
-	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:387) [MinecraftServer.class:?]
-	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:685) [li.class:?]
-Caused by: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 4
-	at com.google.gson.stream.JsonReader.beginArray(JsonReader.java:338) ~[JsonReader.class:?]
-	at com.google.gson.internal.bind.CollectionTypeAdapterFactory$Adapter.read(CollectionTypeAdapterFactory.java:79) ~[CollectionTypeAdapterFactory$Adapter.class:?]
-	at com.google.gson.internal.bind.CollectionTypeAdapterFactory$Adapter.read(CollectionTypeAdapterFactory.java:60) ~[CollectionTypeAdapterFactory$Adapter.class:?]
-	at com.google.gson.Gson.fromJson(Gson.java:803) ~[Gson.class:?]
-	... 7 more
-[20:53:32] [Server thread/INFO]: Preparing level "world"
-[20:53:33] [Server thread/INFO]: Preparing start region for level 0
-[20:53:34] [Server thread/INFO]: Preparing spawn area: 26%
-[20:53:35] [Server thread/INFO]: Preparing spawn area: 75%
-[20:53:35] [Server thread/INFO]: Done (3.153s)! For help, type "help" or "?"
-[20:53:49] [Server thread/INFO]: 醉生梦死[/221.204.127.206:49543] logged in with entity id 356 at (16.51467749328677, 61.0, 15.022251375388905)
-[20:53:50] [Server thread/INFO]: 醉生梦死 joined the game
-[20:53:51] [Server thread/INFO]: xyh[/183.200.14.232:1972] logged in with entity id 500 at (-71.29648102184711, 69.0, 240.17212839559102)
-[20:53:51] [Server thread/INFO]: xyh joined the game
-[20:53:52] [Server thread/INFO]: mingblanc[/221.204.127.108:2629] logged in with entity id 501 at (-89.80428917848586, 7.0, 257.0458693964878)
-[20:53:52] [Server thread/INFO]: mingblanc joined the game
-[20:54:11] [Server thread/WARN]: 醉生梦死 moved too quickly! -0.027948379051744965,0.22892801043700928,0.5900213355368393 (0.4797241695779829, 1.8204232754521685, 11.091846391989941)
-[20:54:12] [Server thread/INFO]: [xyh: Teleported xyh to mingblanc]
-[20:54:15] [Server thread/INFO]: [mingblanc: Teleported mingblanc to -898.5,71.5,-195.5]
-[20:54:16] [Server thread/INFO]: [xyh: Teleported xyh to mingblanc]
-[20:55:00] [Server thread/INFO]: xyh has just earned the achievement [The End?]
-[20:55:00] [Server thread/WARN]: xyh moved wrongly!
-[20:55:43] [Server thread/INFO]: [xyh: Teleported xyh to mingblanc]
-[20:56:38] [Server thread/WARN]: mingblanc moved too quickly! 0.0019526767743798246,0.14594945306884455,-0.23055111278177876 (3.7877597049619554, 1.60920744162819, 9.809550608210191)
-[20:56:38] [Server thread/WARN]: mingblanc moved too quickly! 0.0,0.0,0.0 (21.696347018492983, 2.282623348904243, 28.666949359551584)
-[20:56:38] [Server thread/WARN]: mingblanc moved too quickly! 0.0,0.0,0.0 (23.43842993548868, 2.550570937408514, 10.332089220223855)
-[20:56:38] [Server thread/WARN]: mingblanc moved too quickly! 0.0,0.0,0.0 (21.025067158624882, 2.8131595792533943, 2.8612343324468696)
-[20:56:39] [Server thread/WARN]: mingblanc moved too quickly! 0.0,0.0,0.0 (18.699454031032495, 3.070496453269858, 1.4413526455758752)
-[20:56:39] [Server thread/WARN]: mingblanc moved too quickly! 0.0,0.0,0.0 (17.01650365865227, 2.9306865812436538, 1.3116309452750239)
-[20:56:39] [Server thread/WARN]: mingblanc moved too quickly! 0.0,0.0,0.0 (14.679905539229678, 3.9696729444032615, 8.555437785456505)
-[20:56:39] [Server thread/WARN]: mingblanc moved too quickly! 0.0,0.0,0.0 (13.358714425694851, 3.81187955970482, 7.785448609140705)
-[20:56:39] [Server thread/WARN]: mingblanc moved too quickly! 0.0,0.0,0.0 (7.2140846760924955, 4.245242059896652, 5.707784350882393)
-[20:56:59] [Server thread/INFO]: xyh fell from a high place
-[20:57:06] [Server thread/INFO]: [xyh: Teleported xyh to -898.5,71.5,-195.5]
-[21:00:12] [Server thread/INFO]: [mingblanc: Teleported mingblanc to -898.5,71.5,-195.5]
-[21:00:28] [Server thread/INFO]: xyh has just earned the achievement [The End.]
-[21:00:37] [Server thread/INFO]: [xyh: Teleported xyh to -898.5,71.5,-195.5]
-[21:01:35] [Server thread/INFO]: [mingblanc: Teleported mingblanc to -80.5,80.5,248.5]
-[21:01:38] [Server thread/INFO]: [mingblanc: Teleported mingblanc to -898.5,71.5,-195.5]
-[21:02:09] [Server thread/INFO]: [xyh: Set own game mode to Creative Mode]
-[21:02:52] [Server thread/INFO]: [醉生梦死: Teleported 醉生梦死 to -928.5,71.5,-190.5]
-[21:02:59] [Server thread/INFO]: [xyh: Set own game mode to Survival Mode]
-[21:03:37] [Server thread/INFO]: [xyh: Set own game mode to Creative Mode]
-[21:03:56] [Server thread/INFO]: [mingblanc: Teleported mingblanc to -1443.5,80.5,-649.5]
-[21:03:59] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2488ms behind, skipping 49 tick(s)
-[21:04:04] [Server thread/INFO]: [xyh: Teleported xyh to mingblanc]
-[21:04:23] [Server thread/INFO]: [mingblanc: Teleported 醉生梦死 to mingblanc]
-[21:04:43] [Server thread/INFO]: [xyh: Set own game mode to Survival Mode]
-[21:04:47] [Server thread/INFO]: xyh has just earned the achievement [The Beginning?]
-[21:05:22] [Server thread/INFO]: mingblanc was slain by Wither
-[21:05:29] [Server thread/INFO]: [mingblanc: Teleported mingblanc to xyh]
-[21:05:35] [Server thread/INFO]: 醉生梦死 withered away
-[21:05:38] [Server thread/INFO]: xyh withered away
-[21:05:42] [Server thread/INFO]: [xyh: Teleported xyh to mingblanc]
-[21:05:51] [Server thread/INFO]: xyh has just earned the achievement [The Beginning.]
-[21:05:58] [Server thread/INFO]: [mingblanc: Teleported 醉生梦死 to mingblanc]
-[21:06:02] [Server thread/INFO]: mingblanc withered away
-[21:06:07] [Server thread/INFO]: [mingblanc: Teleported mingblanc to xyh]
-[21:06:23] [Server thread/INFO]: xyh withered away
-[21:06:26] [Server thread/INFO]: [xyh: Teleported xyh to mingblanc]
-[21:07:13] [Server thread/INFO]: [mingblanc: Teleported mingblanc to -80.5,80.5,248.5]
-[21:07:17] [Server thread/INFO]: [mingblanc: Teleported mingblanc to -898.5,71.5,-195.5]
-[21:07:18] [Server thread/INFO]: [xyh: Teleported xyh to -898.5,71.5,-195.5]
-[21:07:19] [Server thread/INFO]: [醉生梦死: Teleported 醉生梦死 to -928.5,71.5,-190.5]
-[21:07:33] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2652ms behind, skipping 53 tick(s)
-[21:08:16] [Server thread/INFO]: [xyh: Teleported xyh to 628.5,32.5,576.5]
-[21:08:39] [Server thread/INFO]: [mingblanc: Teleported mingblanc to xyh]
-[21:08:52] [Server thread/INFO]: [mingblanc: Teleported 醉生梦死 to mingblanc]
-[21:09:06] [Server thread/WARN]: 醉生梦死 moved wrongly!
-[21:12:32] [Server thread/INFO]: [xyh: Set own game mode to Creative Mode]
-[21:13:01] [Server thread/INFO]: [xyh: Set own game mode to Survival Mode]
-[21:14:50] [Server thread/INFO]: [mingblanc: Teleported 醉生梦死 to mingblanc]
-[21:15:39] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2239ms behind, skipping 44 tick(s)
-[21:16:06] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 6284ms behind, skipping 125 tick(s)
-[21:18:28] [Server thread/INFO]: [xyh: Set own game mode to Survival Mode]
-[21:18:32] [Server thread/INFO]: [xyh: Set own game mode to Creative Mode]
-[21:18:43] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2631ms behind, skipping 52 tick(s)
-[21:19:19] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 22016ms behind, skipping 440 tick(s)
-[21:19:22] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2654ms behind, skipping 53 tick(s)
-[21:19:24] [Server thread/INFO]: [xyh: Teleported xyh to -991.5,33.5,-92.5]
-[21:19:28] [Server thread/INFO]: 醉生梦死 was killed by Skeleton Druid using magic
-[21:19:59] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 14893ms behind, skipping 297 tick(s)
-[21:20:05] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3693ms behind, skipping 73 tick(s)
-[21:20:18] [Server thread/INFO]: [xyh: Set own game mode to Survival Mode]
-[21:20:55] [Server thread/INFO]: [醉生梦死: Teleported 醉生梦死 to 809.5,255.5,1013.5]
-[21:20:59] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3787ms behind, skipping 75 tick(s)
-[21:21:00] [Server thread/INFO]: [mingblanc: Teleported 醉生梦死 to mingblanc]
-[21:21:01] [Server thread/INFO]: [xyh: Set own game mode to Creative Mode]
-[21:21:06] [Server thread/INFO]: [xyh: Teleported xyh to mingblanc]
-[21:21:14] [Server thread/INFO]: [xyh: Set own game mode to Survival Mode]
-[21:22:19] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2515ms behind, skipping 50 tick(s)
-[21:25:36] [Server thread/INFO]: [醉生梦死: Teleported 醉生梦死 to 809.5,150.5,1013.5]
-[21:25:40] [Server thread/INFO]: 醉生梦死 fell from a high place
-[21:25:52] [Server thread/INFO]: [醉生梦死: Teleported 醉生梦死 to 809.5,69.5,1013.5]
-[21:26:12] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2621ms behind, skipping 52 tick(s)
-[21:26:31] [Server thread/INFO]: [mingblanc: Teleported 醉生梦死 to mingblanc]
-[21:26:38] [Server thread/INFO]: [醉生梦死: Teleported 醉生梦死 to 809.5,69.5,1013.5]
-[21:27:03] [Server thread/INFO]: [xyh: Set own game mode to Creative Mode]
-[21:27:21] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3192ms behind, skipping 63 tick(s)
-[21:27:24] [Server thread/INFO]: [mingblanc: Set own game mode to Creative Mode]
-[21:27:48] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 11266ms behind, skipping 225 tick(s)
-[21:28:01] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3277ms behind, skipping 65 tick(s)
-[21:28:26] [Server thread/INFO]: 醉生梦死 was killed by magic
-[21:28:37] [Server thread/INFO]: [醉生梦死: Teleported 醉生梦死 to 783.5,64.5,1045.5]
-[21:29:35] [Server thread/INFO]: [mingblanc: Teleported 醉生梦死 to mingblanc]
-[21:30:23] [Server thread/INFO]: <醉生梦死> t
-[21:30:41] [Server thread/INFO]: 醉生梦死 fell out of the world
-[21:31:51] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2983ms behind, skipping 59 tick(s)
-[21:34:02] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2155ms behind, skipping 43 tick(s)
-[21:35:02] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 4578ms behind, skipping 91 tick(s)
-[21:35:17] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3015ms behind, skipping 60 tick(s)
-[21:35:38] [Server thread/INFO]: 醉生梦死 was slain by Zombie
-[21:35:43] [Server thread/INFO]: [mingblanc: Teleported mingblanc to xyh]
-[21:37:36] [Server thread/INFO]: mingblanc lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
-[21:37:36] [Server thread/INFO]: mingblanc left the game
-[21:37:48] [Server thread/INFO]: Stopping the server
-[21:37:48] [Server thread/INFO]: Stopping server
-[21:37:48] [Server thread/INFO]: Saving players
-[21:37:48] [Server thread/INFO]: Saving worlds
-[21:37:48] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
-[21:37:48] [Server thread/INFO]: Saving chunks for level 'world'/Nether
-[21:37:48] [Server thread/INFO]: Saving chunks for level 'world'/Twilight Forest
+[11:56:02] [Server thread/INFO]: mingblanc[/221.205.209.105:12626] logged in with entity id 2087 at (714.0147784783227, 64.0, 754.4000571789804)
+[11:56:02] [Server thread/INFO]: mingblanc joined the game
+[11:57:35] [Server thread/INFO]: mingblanc fell out of the world
+[11:57:40] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2620ms behind, skipping 52 tick(s)
+[11:58:16] [Server thread/INFO]: [mingblanc: Changing to clear weather]
+[12:11:04] [Server thread/INFO]: [mingblanc: Teleported mingblanc to 314.5,60.5,260.5]
+[12:11:16] [Server thread/INFO]: [mingblanc: Teleported mingblanc to -21.5,60.5,-330.5]
+[12:11:30] [Server thread/INFO]: [mingblanc: Teleported mingblanc to -511.5,60.5,37.5]
+[12:13:38] [Server thread/INFO]: [mingblanc: Teleported mingblanc to -1.5,60.5,5.5]
+[12:23:35] [Server thread/INFO]: mingblanc fell out of the world
+[12:23:48] [Server thread/INFO]: [mingblanc: Teleported mingblanc to -898.5,71.5,-195.5]
+[12:24:14] [Server thread/INFO]: [mingblanc: Set mingblanc's spawn point to (-902, 71, -180)]
+[12:24:25] [Server thread/INFO]: [mingblanc: Set mingblanc's spawn point to (-903, 71, -180)]
+[12:24:34] [Server thread/INFO]: mingblanc fell out of the world
+[12:27:35] [Server thread/INFO]: [mingblanc: Teleported mingblanc to -898.5,71.5,-195.5]
+[12:28:16] [Server thread/INFO]: mingblanc lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[12:28:16] [Server thread/INFO]: mingblanc left the game
+[12:28:34] [Server thread/INFO]: mingblanc[/221.205.209.105:13332] logged in with entity id 55394 at (-920.2641353574197, 70.0, -163.71019832654537)
+[12:28:34] [Server thread/INFO]: mingblanc joined the game
+[12:30:28] [Server thread/INFO]: mingblanc lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[12:30:28] [Server thread/INFO]: mingblanc left the game
+[12:30:49] [Server thread/INFO]: Stopping the server
+[12:30:49] [Server thread/INFO]: Stopping server
+[12:30:49] [Server thread/INFO]: Saving players
+[12:30:49] [Server thread/INFO]: Saving worlds
+[12:30:49] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[12:30:49] [Server thread/INFO]: Saving chunks for level 'world'/Nether
